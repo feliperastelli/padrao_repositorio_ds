@@ -3,7 +3,12 @@
 Este repositório contém o desenvolvimento colaborativo do Manual de Boas Práticas em Ciência de Dados da empresa fictícia **Data-CDS**.  
 
 ## Sumário
+
 <!-- toc -->
+
+- [Estrutura planejada](#estrutura-planejada)
+- [Contribuição](#contribuicao)
+
 <!-- tocstop -->
 
 ## Estrutura planejada
