@@ -13,6 +13,7 @@ assegurando que o conjunto seja consistente e confiável para análises.
 - Documentar todas as transformações aplicadas.
 
 ## Exemplos
+
 - Substituição de valores ausentes pela mediana/média ou com outras técnicas.
 - Normalização de textos
 - Remoção de registros duplicados.
