@@ -1,0 +1,51 @@
+name: Update TOC
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "**/*.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-toc
+  cancel-in-progress: true
+
+jobs:
+  toc:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor != 'github-actions[bot]' }} # evita loop
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate TOCs in all READMEs
+        shell: bash
+        run: |
+          set -e
+          # Atualiza TOC em README da raiz, se existir marcador
+          if grep -q "<!-- toc -->" README.md; then
+            npx markdown-toc -i README.md
+          fi
+          # Atualiza TOC em todos os READMEs de subpastas com marcador
+          while IFS= read -r -d '' file; do
+            if grep -q "<!-- toc -->" "$file"; then
+              npx markdown-toc -i "$file"
+            fi
+          done < <(find . -type f -iname "README.md" -not -path "./README.md" -print0)
+
+      - name: Commit TOC updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: atualiza sumário [skip ci]"
+          branch: ${{ github.ref_name }}
+          file_pattern: |
+            README.md
+            **/README.md
