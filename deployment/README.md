@@ -1,6 +1,7 @@
 # Deployment
 
-Esta seção trata do processo de disponibilização dos modelos em produção, garantindo escalabilidade, monitoramento e governança.
+Esta seção trata do processo de disponibilização dos modelos em produção,
+garantindo escalabilidade, monitoramento e governança.
 
 ## Sumário
 <!-- toc -->
