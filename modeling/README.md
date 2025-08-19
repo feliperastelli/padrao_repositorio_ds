@@ -16,3 +16,4 @@ de machine learning ou estatísticos.
 - Modelos de regressão linear e logística.
 - Árvores de decisão e random forests.
 - Redes neurais aplicadas a classificação.
+- SVM
