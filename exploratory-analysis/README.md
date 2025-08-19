@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA)
 
-Esta seção cobre a análise exploratória de dados, permitindo compreender 
+Esta seção cobre a análise exploratória de dados, permitindo compreender
 padrões, distribuições e possíveis problemas antes da modelagem.
 
 ## Boas práticas
