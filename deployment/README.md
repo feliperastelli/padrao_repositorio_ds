@@ -21,3 +21,4 @@ garantindo escalabilidade, monitoramento e governança.
 - Deploy via APIs REST (FastAPI, Flask).
 - Servir modelos em plataformas como AWS Sagemaker ou Databricks.
 - Monitoramento com Prometheus + Grafana.
+- Teste
