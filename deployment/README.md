@@ -2,6 +2,10 @@
 
 Esta seção trata do processo de disponibilização dos modelos em produção, garantindo escalabilidade, monitoramento e governança.
 
+## Sumário
+<!-- toc -->
+<!-- tocstop -->
+
 ## Boas práticas
 - Utilizar pipelines de CI/CD para automação de deploys.
 - Versionar modelos e dependências.
