@@ -8,6 +8,8 @@ Este capítulo aborda as práticas recomendadas para extração de dados de dife
 - Utilizar conexões seguras (ex: SSH, VPN, TLS).
 - Documentar queries, APIs ou pipelines utilizados.
 - Monitorar falhas de extração e manter logs.
+- Documentar queries ou APIs utilizadas.
+
 
 ## Exemplos
 - Extração via SQL direto em banco de dados relacional.
