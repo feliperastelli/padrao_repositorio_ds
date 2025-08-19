@@ -20,7 +20,8 @@ Boas Práticas em Ciência de Dados da empresa fictícia **Data-CDS**.
 - `modeling/`
 - `deployment/`
 
-O objetivo é padronizar processos e garantir qualidade em projetos de ciência de dados.
+O objetivo é padronizar processos e garantir qualidade em projetos de 
+ciência de dados.
 
 ## Contribuição
 
