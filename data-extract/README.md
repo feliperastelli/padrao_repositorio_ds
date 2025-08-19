@@ -15,3 +15,5 @@ Este capítulo aborda as práticas recomendadas para extração de dados de dife
 - Extração via SQL direto em banco de dados relacional.
 - Consumo de dados via APIs REST.
 - Leitura de arquivos CSV/Parquet armazenados em Data Lakes.
+
+ 
