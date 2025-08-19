@@ -8,7 +8,7 @@ Boas Práticas em Ciência de Dados da empresa fictícia **Data-CDS**.
 <!-- toc -->
 
 - [Estrutura planejada](#estrutura-planejada)
-- [Contribuição](#contribuicao)
+- [Contribuição](#contribuição)
 
 <!-- tocstop -->
 
@@ -20,7 +20,7 @@ Boas Práticas em Ciência de Dados da empresa fictícia **Data-CDS**.
 - `modeling/`
 - `deployment/`
 
-O objetivo é padronizar processos e garantir qualidade em projetos de 
+O objetivo é padronizar processos e garantir qualidade em projetos de
 ciência de dados.
 
 ## Contribuição
