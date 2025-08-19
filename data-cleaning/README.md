@@ -10,6 +10,6 @@ Esta seção trata do processo de limpeza e padronização de dados, assegurando
 - Documentar todas as transformações aplicadas.
 
 ## Exemplos
-- Substituição de valores ausentes pela mediana/média.
-- Normalização de textos para evitar diferenças de capitalização.
+- Substituição de valores ausentes pela mediana/média ou com outras técnicas.
+- Normalização de textos
 - Remoção de registros duplicados.
