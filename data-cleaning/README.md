@@ -1,7 +1,8 @@
 # Data Cleaning
 
-Esta seção trata do processo de limpeza e padronização de dados, assegurando que o 
-conjunto seja consistente e confiável para análises.
+Esta seção trata do processo de limpeza e padronização de dados,
+assegurando que o conjunto seja consistente e confiável para análises.
+
 
 ## Boas práticas
 
