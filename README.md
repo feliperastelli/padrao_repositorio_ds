@@ -1,24 +1,28 @@
 # Manual de Boas Práticas em Ciência de Dados
 
-Este repositório contém o desenvolvimento colaborativo do Manual de Boas Práticas em Ciência de Dados da empresa fictícia **Data-CDS**.  
+Este repositório contém o desenvolvimento colaborativo do Manual de
+Boas Práticas em Ciência de Dados da empresa fictícia **Data-CDS**.  
 
 ## Sumário
 
 <!-- toc -->
 
 - [Estrutura planejada](#estrutura-planejada)
-- [Contribuição](#contribuicao)
+- [Contribuição](#contribuição)
 
 <!-- tocstop -->
 
 ## Estrutura planejada
+
 - `data-extract/`
 - `data-cleaning/`
 - `exploratory-analysis/`
 - `modeling/`
 - `deployment/`
 
-O objetivo é padronizar processos e garantir qualidade em projetos de ciência de dados.
+O objetivo é padronizar processos e garantir qualidade em projetos de
+ciência de dados.
 
 ## Contribuição
+
 Veja [CONTRIBUTING.md](CONTRIBUTING.md).
