@@ -1,6 +1,7 @@
 # Data Extract
 
-Este capítulo aborda as práticas recomendadas para extração de dados de diferentes fontes, garantindo rastreabilidade e segurança.
+Este capítulo aborda as práticas recomendadas para extração de dados de diferentes fontes, 
+garantindo rastreabilidade e segurança.
 
 ## Boas práticas
 - Registrar a origem e o formato dos dados.
